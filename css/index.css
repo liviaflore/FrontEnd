@@ -1,0 +1,45 @@
+#menu li{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: #874bf7;
+}
+
+.redes{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.texto{
+    padding: 30px;
+}
+
+.paragrafo{
+    text-align: justify;
+}
+
+.img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}

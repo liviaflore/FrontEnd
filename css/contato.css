@@ -1,0 +1,42 @@
+#menu li{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: #874bf7;
+}
+
+.redes{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.paragrafo{
+    text-align: justify;
+}
+
+.map{
+    margin-left: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}

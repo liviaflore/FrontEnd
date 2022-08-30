@@ -1,3 +1,11 @@
+const html = document.querySelector('html')
+const check = document.querySelector('#checkbox')
+
+check.addEventListener('change', function() {
+    html.classList.toggle('dark')
+})
+
+
 let Nome = window.document.getElementById('Nome')
 let Email = document.querySelector('#Email')
 let Mensagem = document.querySelector('#Mensagem')
